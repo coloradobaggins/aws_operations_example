@@ -1,0 +1,27 @@
+{
+  "name": "aws_operations_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coloradobaggins/aws_operations_example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coloradobaggins/aws_operations_example/issues"
+  },
+  "homepage": "https://github.com/coloradobaggins/aws_operations_example#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.245.0",
+    "@aws-sdk/client-s3": "^3.245.0",
+    "@aws-sdk/lib-dynamodb": "^3.245.0",
+    "@aws-sdk/lib-storage": "^3.245.0"
+  }
+}
